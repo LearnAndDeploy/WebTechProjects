@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method = "get" action="">
+        <h1>Register</h1>
+        <fieldset>
+            <legend><strong>Personal details</strong></legend>
+            <p>
+                <label for="fn"><strong>First Name</strong></label><br><input type="text" id="fn" placeholder="First name only">
+            </p>
+            <p>
+                <label for="ln"><strong>Last Name</strong></label><br><input type="text" id="ln" placeholder="Last name only">
+            </p>
+            <p>
+                <label for="DOB"><strong>Date of Birth</strong></label><br><input type="datetime" id="DOB" placeholder="mm/dd/yyyy">
+            </p>
+            <p>
+                <label for="em"><strong>Email</strong></label><br><input type="email" id="em" placeholder="example@domain.com">
+            </p>
+            <p>
+                <label for="link"><strong>URL</strong></label><br><input type="url" id="link" placeholder="http://mysite.com">
+            </p>
+            <p>
+                <label for="tp"><strong>Telephone</strong></label><br><input type="text" id="tp" placeholder="Eg: +447000 000000">
+            </p>
+            <p>
+                <label for="sz"><strong>Telephone</strong></label><br><input type="text" id="sz" value="9">
+            </p>
+            <p>
+                Flying Skill level(1 low - 100 high) <br> <input type="range" value="0"> <br> 0
+            </p>
+        </fieldset>
+        <p>&nbsp;</p>
+        <fieldset>
+            <legend><strong>Billing address</strong></legend>
+            <label for="ad">Address <textarea name="address" id="ad"></textarea></label>
+            <p>
+                <label for="pc">Post code</label> <br> <input type="text" id="pc">
+            </p>
+            <p>
+                <label for="ct">Country</label> <br> <input type="text" id="ct">
+            </p>
+        </fieldset>
+        <p>&nbsp;</p>
+        <fieldset>
+            <legend><strong>Card details</strong></legend>
+            <fieldset>
+                <legend><strong>Card type</strong></legend>
+                <p>
+                    <label for="vs"><input type="radio"> VISA</label>
+                    <label for="ms"><input type="radio"> Mastercard</label>
+                    <label for="am"><input type="radio"> AMEX</label>
+                </p>
+            </fieldset>
+            <p>
+                <label for="nm"><strong>Name</strong></label> <br> <input type="text" id="nm" placeholder="Name as it appears on your screen">
+            </p>
+            <p>
+                <label for="cn"><strong>Card number</strong></label> <br> <input type="text" id="cn">
+            </p>
+            <p>
+                <label for="sc"><strong>Security code</strong></label> <br> <input type="text" id="sc">
+            </p>
+            <p>
+                <label for="ed"><strong>Expiry Date</strong></label> <br> <input type="datetime" id="ed" placeholder="----------- ------">
+            </p>
+        </fieldset>
+        <P>&nbsp;</P>
+        <fieldset>
+            <p><button type="submit">Place Order</button></p>
+        </fieldset>
+    </form>
+</body>
+</html>

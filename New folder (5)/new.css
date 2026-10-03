@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('WP/spider.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    width: 420px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+.logo{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.inputBox{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+
+}
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,.2);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+::placeholder{
+    color: #fff;  
+}
+
+.remforgot{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14.5px;
+}
+
+
+.remforgot label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.remforgot a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.remforgot a:hover{
+    text-decoration: underline;
+}
+
+
+.container .btn{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+
+.regLink{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.regLink p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin: 3px;
+}
+
+
+.regLink p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 109vh;
+    background: url(WP/flashLogo.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.nav{
+    position: absolute;
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+
+}
+
+
+ul li{
+    top: 10px;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+.container{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    width: 420px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+    color: #fff;
+
+}
+.logo{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.inputBox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.inputBox i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+
+
+.remforgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+}
+
+.remforgot label input{
+    accent-color: #fff;
+    margin-right: 5px;
+    
+}
+
+.remforgot a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.remforgot a:hover{
+    text-decoration: underline;
+}
+
+.container .btn{
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+    
+}
+
+.regLink{
+    font-size: 15px;
+    text-align: center;
+}
+
+.regLink p a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.regLink p a:hover{
+    text-decoration: underline;
+}
+*/
+
+
+
+
+
+

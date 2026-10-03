@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formHead{
+            background-color: #f1f1f1;
+            height: 71.5vh;
+            width: 800px;
+            margin: auto;
+            border-right: 4px;
+            border-left: 3px solid rgba(8, 174, 174, 0.795);
+            border-right: 8px solid rgba(8, 174, 174, 0.795);
+            border-bottom: none;
+            
+            
+        }
+        .logo{
+            margin-top: 0px;
+            text-align: center;
+            background-color: rgba(8, 174, 174, 0.795);
+            
+        }
+        label{
+            margin-left: 364px;
+            
+        }
+        .inputBox{
+            width: 250px;
+            margin-left: 10px;
+        }
+        #AgeLabel{
+            margin-left: 377px;
+        }
+        #inputAge{
+            width: 250px;
+            margin-left: 10px;
+        }
+        
+        .cROLE{
+            margin-left: 120px;
+        }
+        .rem{
+            margin-left: 139px;
+        }
+
+        .rem span{
+            margin-left: 104px;
+        }
+        .remOption{
+            margin-left: 430px;
+            margin-top: -52px;
+        }
+        .FCC{
+            margin-left: 217px;
+        }
+        .impv{
+            margin-left: 131px;
+        }
+        .impv span{
+            margin-left: 144px;
+        }
+        .impvOption{
+            margin-left: 430px;
+            margin-top: -52px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="" style="border: 5px solid black; width: 55%; margin: auto;">
+      <fieldset style="margin: 0px; border: 12px double; padding-left: 30px; box-shadow: inset 0 0 10px black;">
+           <h4 style="margin-top: -8px; font-family: Arial; font-weight: 900;font-size: 18px;">Leave a Reply</h4>
+           <p>Your email address will not be published. Required fields are marked *</p>
+
+           <p>
+               <label for="Cm">Comment</label> <br>
+               <textarea name="Comment" id="Cm" cols="80" rows="8"></textarea>
+           </p>
+           <p>
+               <label for="nm">Name*</label> <br>
+               <input type="text" id="nm" size="86">
+           </p>
+           <p>
+               <label for="nm">Email*</label> <br>
+               <input type="email" id="nm" size="86">
+           </p>
+           <p>
+               <label for="nm">Website*</label> <br>
+               <input type="url" id="nm" size="86">
+           </p>
+           <p>
+               <label><input type="checkbox">  Save my name, email, and webste in this browser for the next time I comment.</label>
+           </p>
+           <p>
+               <button type="submit">Post Comment</button>
+           </p>
+      </fieldset>
+   </form>
+   <p>&nbsp</p>
+   <form method="post" action="">
+    <div class="formHead">
+        <h2 class="logo">Survey Form</h2>
+        <p align="center">Let us know how we can inprove freeCodeCamp</p>
+        <p>
+            <label>* Name: </label><input type="text" placeholder="Enter your name" class="inputBox">
+        </p>
+        <p>
+            <label>* Email: </label><input type="text" placeholder="Enter your Email" class="inputBox">
+        </p>
+        <p>
+            <label id="AgeLabel">* Age: </label><input type="number" placeholder="Age" id="inputAge">
+        </p>
+        <p class="cROLE">
+            Which option best describes your current role? <select style="margin-left: 10px; width: 130px; padding: 5px 0px; background-color: rgb(234, 230, 230);"><option value="value1">Student</option></select>
+        </p>
+        <p class="rem">* How likely is that you would recommend <br><span>freeCodeCamp to a friend?</span> <br>
+            <div class="remOption">
+                <input type="radio"> Definitely <br>
+                <input type="radio"> Maybe <br>
+                <input type="radio"> Not sure
+           </div>
+        </p>
+        <p class="FCC">
+            What do you like most in FCC: <select style="margin-left: 10px; width: 130px; padding: 5px 0px; background-color: rgb(234, 230, 230);"><option value="value1">Select an option</option></select>
+        </p>
+        <p class="impv">Things that should be improved in the future <br><span>{Check all that apply}</span> <br>
+            <div class="impvOption">
+                <input type="checkbox"> Front-end Projects <br>
+                <input type="checkbox"> Back-end Projects <br>
+                <input type="checkbox"> Data Visualization
+           </div>
+        </p>
+    </div>
+</form>
+</body>
+</html>

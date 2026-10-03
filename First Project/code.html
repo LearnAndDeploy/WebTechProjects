@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        @media only screen and (max-width: 768px) {
+          /* For mobile phones: */
+          [class*="col-"] {
+            width: 100%;
+          }
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+        }
+
+        .menu{
+            padding: 8px 13px;
+            width: 100%;
+            height: 300px;
+            background-image: url("photos/Screenshot\ 2025-01-31\ 120159.png");
+            background-position: center;
+            background-size: contain;
+
+        }
+        .menu ul{
+            float: left;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu ul li{
+            margin-left: 250px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            transition: 0.4s ease-in-out;
+            color: #0707c1;
+        }
+        .menu ul li a:hover{
+            color: #ff7200;
+        }
+        .LogoImage{
+            position: relative;
+            width: 200px;
+            border-radius: 20px;
+            right: -35%;
+            bottom: -110px;
+        }
+
+        .intro{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            margin-top: 100px;
+            place-items: center;
+            /* margin: 200px; */
+        }
+        .btn{
+            margin-top: 8px;
+            width: 150px;
+            height: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+            outline: none;
+            background-color: #8c0000ee;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.4s ease-in-out;
+            
+        }
+        .btn a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .btn:hover{
+            background-color: #0707c1;
+        }
+        
+        #items{
+            flex-direction: column;
+        }
+        #items img{
+            width: 200px;
+            margin: 50px;
+        }
+
+        #AU{
+            place-items: center;
+        }
+
+        #CU{
+            place-items: center;
+            margin-top: 300px;
+        }
+
+        .OCU{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="#items">STORE</a></li>
+                <li><a href="#AU">ABOUT</a></li>
+                <li><a href="#CU">CONTACT</a></li>
+            </ul>
+            <div class="LogoImage"><img class="LogoImage" src="photos/DEEZY.png" alt=""></div>
+        </div>
+        
+        <div class="intro">
+            <h1>Your trusted friend. Order now! </h1><br>
+            <p>Dear all, Report NOT RECEIVED to +233 59 204 9996. WhatsApp ONLY.</p>
+            <button class="btn"><a href="#">Shop Now</a></button>
+        </div>
+
+        <div id="items">
+            
+            <img src="photos/png-clipart-iphone-7-mobile-phone-accessories-telephone-samsung-galaxy-s7-car-phone-accessory-miscellaneous-gadget-thumbnail.png" alt="">
+            <img src="photos/png-transparent-iphone-x-apple-iphone-8-plus-apple-iphone-7-plus-mobile-phone-accessories-iphone-5s-apple-gadget-mobile-phone-case-mobile-phone-thumbnail.png" alt="">
+            <img src="photos/png-transparent-silver-iphone-x-and-space-gray-iphone-x-iphone-8-plus-iphone-x-apple-facetime-telephone-iphone-x-gadget-mobile-phone-case-mobile-phone-thumbnail.png" alt="">
+            <img src="photos/png-transparent-apple-watch-series-3-apple-watch-series-2-macbook-pro-apple-watch-series-3-thumbnail.png" alt="">
+            <img src="photos/png-clipart-smartphone-battery-charger-feature-phone-iphone-mobile-phone-accessories-smartphone-gadget-electronics-thumbnail.png" alt="">
+            <img src="photos/png-clipart-two-black-and-yellow-portable-speakers-battery-charger-usb-ac-power-plugs-and-sockets-loudspeaker-computer-port-speakers-electronics-computer-thumbnail.png" alt="">
+            <img src="photos/055e31535c7c77158beb480e538d4794.jpg" alt="">
+            <img style="height: 200px;" src="photos/car-smartphone-mobile-phones-2016-honda-civic-mobile-phone-accessories-holder-thumbnail.jpg" alt="">
+            <img src="photos/png-clipart-usb-flash-drives-sandisk-cruzer-blade-usb-2-battery-charger-mobile-phones-usb-electronics-usb-flash-drive-thumbnail.png" title="Pen drive">
+            <img src="photos/car-phone-iphone-telephone-mobile-phone-accessories-iphone-thumbnail.jpg" alt="">
+            <img style="height: 200px;" src="photos/png-clipart-black-corded-headphones-iphone-samsung-galaxy-mobile-phone-accessories-headphones-headset-accessory-electronics-microphone-thumbnail.png" alt="">
+            <img style="height: 200px;" src="photos/png-clipart-headphones-mobile-phone-accessories-battery-charger-mobile-phones-headset-headphones-electronics-computer-thumbnail.png" alt="">
+        </div>
+        <p>&nbsp;</p>
+        <hr>
+        <p>&nbsp;</p>
+        <div id="AU">
+            <h1>About Us</h1>
+            <div><img style="clip-path: circle(50%);" src="photos/Dessy.jpg" alt=""></div>
+            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Obrempong Kofi Nyarko <br>
+                <span style="margin-left: 27px; font-size: 16px;">Company Manager</span>
+            </span>
+            <p style="font-family: 'Times New Roman', Times, serif;">We are phone accessories resale company that delivers phone items and gadgets to customers at any location and at the most competitive prices as well.</p>
+            <p style="margin-top: 8px;"><span style="font-weight: 600;">Working Hours</span> <br>
+                Monday - Saturday 8:00 am - 9:00pm <br>
+                Sunday - 10:00 am - 9:00 pm
+            </p>
+
+        </div>
+
+        <div id="CU">
+            <p><h1>Contact us</h1><br>
+                <span style="margin-left: 55px;"><i class='bx bx-phone'></i>0592049996</span> <br>
+                <a href="#" style="text-decoration: none;"><i class='bx bx-envelope'></i>desmondnyarko284@gmail.com</a>
+            </p>
+            <p>&nbsp;</p>
+            <p>Connect with us <br>
+                <i class='bx bxl-whatsapp' ></i>WhatsApp
+            </p>
+
+
+            <div class="OCU">
+                <ul style="float: left; justify-content: center; align-items: center;">
+                    <li><a href="#">Facebook_Share</a></li>
+                    <li><a href="">Twitter_Share</a></li>
+                    <li><a href="">Pinterest</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

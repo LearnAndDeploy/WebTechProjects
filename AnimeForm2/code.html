@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signIN.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 1000px;
+            height: 100vh;
+        }
+        .BOX{
+            display: flex;
+            border: none;
+            padding: 80px;
+        }
+        
+        .container,.container2{
+            width: 450px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background: #333;
+            height: 500px;
+            box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.35);
+            
+        }
+        .container{
+            place-items: center;
+            padding-top: 90px;
+            padding-right: 70px;
+            color: #fff;
+        }
+        .container .hsignin{
+            border: none;
+            margin-bottom: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .container .sicons{
+            border: none;
+            margin: 30px 0px;
+        }
+        .container .sicons a{
+            border: 1px solid rgb(251, 251, 251);
+            margin-left: 5px;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 15px; 
+            transition: 0.4s ease-in-out;
+        }
+        .container .sicons a:hover{
+            color: blue;
+        }
+        .container .logintype{
+            font-family: sans-serif;
+            font-size: 12px;
+            margin: 10px;
+            border: none;
+        }
+
+        .container .inputbox{
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            margin-bottom: 15px;
+            width: 250px;
+            
+        }
+        .container .inputbox input{
+            border: none;
+            outline: none;
+            width: 100%;
+            padding: 4px 13px;
+            background: #f1f1f1;
+            border: 2px solid #f1f1f1;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container .fp{
+            margin: 15px;
+            border: none;
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+        .container .fp a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .container .fp a:hover{
+            text-decoration: underline;
+        }
+        div{
+            border: 2px solid black;
+        }
+        .container2{
+            width: 400px;
+            position: absolute;
+            left: 450px;
+            place-items: center;
+            padding-top: 150px;
+            background-color: rgb(225, 25, 25);
+        }
+        .container2 .header{
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            color: #fff;
+        }
+        .container2 .desc{
+            font-family: sans-serif;
+            font-size: 13px;
+            border: none;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .btn{
+            width: 120px;padding: 5px; 
+            background-color: rgb(249, 44, 44);
+            border: none;
+            border-radius: 5px;
+            color: #fff; 
+            font-size: 12px;
+            cursor: pointer;
+            transition: 0.4s ease-in-out;
+        }
+        
+        .btn2{
+            width: 120px;
+            padding: 8px; 
+            background: #333;
+            border-radius: 5px; 
+            font-size: 12px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.4s ease-in-out;
+        }
+        .btn:hover,.btn2:hover{
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="BOX">
+        <div class="container">
+            <div class="hsignin">
+                <h3>Sign In</h3>
+            </div>
+            <div class="sicons">
+                <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                        <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                        <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="logintype">
+                <p>Login with Email & Password</p>
+            </div>
+            <div class="inputbox">
+                <input type="email" name="em" placeholder="Enter E-mail" required>
+            </div>
+            <div class="inputbox">
+                <input type="password" name="pwd" placeholder="Enter Password" required>
+            </div>
+            <div class="fp">
+                <p><a href="#">Forget Password</a></p>
+            </div>
+            <button class="btn">SIGN IN</button>
+        </div>
+
+        <div class="container2">
+            <div class="header"><h2>Hii Coders</h2></div>
+            <div class="desc"><p>Join "Code with DeeZy" to Improve Your Coding Skills</p></div>
+            <button class="btn2">SIGN UP</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>

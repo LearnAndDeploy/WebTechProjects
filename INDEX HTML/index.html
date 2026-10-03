@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+    <head>
+       <title>My first Website</title>
+    </head>
+    <style>
+        ul{
+           list-style: none;
+           margin: 0;
+           padding: 0;
+	   width: 25%;
+	   background-color: #f1f1f1;
+ 	   position: fixed;
+	   height: 100%;
+ 	   overflow: auto;
+        }
+
+        li a{
+            display: block;
+	    text-decoration: none;
+	    color: #000;
+  	    padding: 8px 16px;
+        }
+        li a.active{
+                    background-color: #04AA6D;
+                    color: white;
+        }
+
+        li a:hover:not(.active){
+                                 background-color: #555;
+                                 color: white;
+        }
+        #layout{
+	        margin-left: 25%;
+		padding: 1px 16px;
+		height: 1000px;
+        }
+    </style>
+    <body>
+        <ul>
+	    <li><a class = "active" href = "#">HOME</a></li>
+            <li><a href = "#">SERVICE</a></li>
+	    <li><a href = "#">ABOUT</a></li>
+	    <li><a href = "#">CONTACT</a></li>
+        </ul>
+        <div id ="layout">
+            <h1>This is my first website</h1>
+        </div>
+    </body>
+</html>

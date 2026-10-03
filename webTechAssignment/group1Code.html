@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 project</title>
+</head>
+<body>
+    <p><strong>Question 1</strong></p>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th colspan="4">Personal Data</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+            <th>Blood type</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>1.66</td>
+            <td>56</td>
+            <td>AB</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>1.56</td>
+            <td>66</td>
+            <td>O+</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>1.68</td>
+            <td>100</td>
+            <td>A+</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>1.47</td>
+            <td>98</td>
+            <td>O</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>1.77</td>
+            <td>88</td>
+            <td>AB</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>1.99</td>
+            <td>97</td>
+            <td>O-</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>1.57</td>
+            <td>55</td>
+            <td>AB</td>
+            <td>Male</td>
+        </tr>
+    </table>
+    <p> <br></p>
+    <p><strong>Question 2</strong></p>
+    <table border="1" cellpadding="5">
+        <tr>
+            <td align="center">Department</td>
+            <td>Computer Science</td>
+            <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td rowspan="2" valign="top">Semester One</td>
+            <td>Computer Graphics</td>
+            <td>Project Management</td>
+        </tr>
+        <tr>
+            <td>Compliers</td>
+            <td>Multimedia</td>
+        </tr>
+        <tr>
+            <td rowspan="3" valign="top">Semester Two</td>
+            <td>Operational research</td>
+            <td>Discrete Maths</td>
+        </tr>
+        <tr>
+            <td>Abstract algebra</td>
+            <td>E-commerce</td>
+        </tr>
+        <tr>
+            <td>AI</td>
+            <td>AI</td>
+        </tr>
+    </table>
+    <p><br></p>
+
+    <form method ="get" action=" ">
+        <fieldset>
+            <legend align="center">Personal Information</legend>
+
+            <label for="fn">First Name:</label>
+            <p><input type="text" id="fn" value="Chan"></p>
+
+            <label for="ln">Last Name:</label>
+            <p><input type="text" id="ln" value="Lee"></p>
+
+            <label for="dob">Date Of Birth:</label>
+            <p><input type="datetime" id="fn" value="dd/mm/yyyy"></p>
+
+            <label for="em">Email:</label>
+            <p><input type="email" id="em" value="Lee@gmail.com"></p>
+
+            <label for="gd">Gender:</label>
+            <p>
+                <ul>
+                    <li>Male</li>
+                    <br>
+                    <li>Female</li>
+                </ul>
+            </p>
+
+            <label for="ar">Age Range</label>
+            <p>
+                <input type="radio"> 0-19
+                <input type="radio"> 20-35
+                <input type="radio"> 36-50
+                <input type="radio"> Over50
+            </p>
+
+            <label for="rs">Relationship Status:</label>
+            <p>
+                <select name="relationship status" id="rs" multiple>
+                    <option>Married</option>
+                    <option>Single</option>
+                    <option>Engaged</option>
+                </select>
+            </p>
+
+            <p>I agree my inforamtion can be given to other third parties.</p>
+            <p>
+                <input type="radio"> Yes 
+                <br>
+                <input type="radio"> No
+            </p>
+
+            <p><input type="submit" value="Submit"></p>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

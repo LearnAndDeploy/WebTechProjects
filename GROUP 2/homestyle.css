@@ -1,0 +1,153 @@
+*{
+   margin: 0px;
+   padding: 0px;
+    text-align: justify;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.8)) , url(pics.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+.Menu{
+    margin: auto;
+    padding: 25px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 5px;
+    width: 100%;
+   color: white;
+   font-family: serif; 
+   font-style: italic;
+
+  
+}
+
+.Menu ul li{
+    font-family: arial;
+    font-style: normal;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: x-large; 
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    color: #ff7200;
+    transition: 0.55s ease-in-out;
+}
+
+.Menu ul li a:hover{
+       color: #fff;
+}
+
+.home{
+    font-family: arial;
+    font-size: large;
+    text-align: justify;
+    padding-top: 20px ;
+    padding: 10px;
+}
+
+.homeul{
+    padding: 10px;
+    list-style-type: square;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 380px;
+    height: 350px;
+}
+
+caption{
+    text-transform: capitalize;
+     text-align: center; 
+    font-weight: bold;
+    font-size: large;
+}
+
+.table tr th{
+       padding: 10px;
+       font-size: large;
+       
+}
+.table tr td{
+    padding: 10px;
+    font-size: large;
+    
+}
+
+header,footer{
+    padding: 8px 16px;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+
+}
+.footer{
+    height: 30px;
+}
+
+.form{
+    color: #fff;
+    margin: 50px 400px 0px 300px;
+    font-family: sans-serif;
+    padding: 20px 30px;
+    width: 650px;
+    height: 550px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    border-radius: 20px;
+}
+.button{
+    height: 40px;
+    width: 600px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #ff7200;
+    color: #000;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    position: relative;
+    right: 180px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+textarea{
+    border-radius: 7px;
+    border-color: black;
+    border-style: outset;
+    border-width: 2px;
+}
+
+.group{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}

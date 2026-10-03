@@ -1,0 +1,11 @@
+.LEVEL1{
+    list-style-type: square;
+}
+
+.LEVEL2{
+    list-style-type: circle;
+}
+
+.plans{
+    list-style-type: upper-roman;
+}

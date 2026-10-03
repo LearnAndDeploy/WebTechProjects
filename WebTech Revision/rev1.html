@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating Tables</title>
+        <style>
+            li{
+                display: inline;
+            }
+            /* .trow{
+                border: 2px solid black;
+            } */
+            .trow td{
+                border: 1px groove #000;
+            }
+            .subret td{
+                /* padding-left: 100px; */
+                width: 100px;
+                text-align: center;
+                font-size: 20px;
+                border: 1px dotted black;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th colspan="4" width="50%" >Personal Data</th>
+            </tr>
+            <tr>
+                <td>1.65</td>
+                <td>56</td>
+                <td>AB</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>1.56</td>
+                <td>66</td>
+                <td>O+</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>1.68</td>
+                <td>100</td>
+                <td>A+</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>1.47</td>
+                <td>56</td>
+                <td>O</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>1.77</td>
+                <td>88</td>
+                <td>AB</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>1.77</td>
+                <td>88</td>
+                <td>AB</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>1.99</td>
+                <td>97</td>
+                <td>O-</td>
+                <td>Male</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Gender <br>
+            <input type="radio" name="gen"> Male <br>
+            <input type="radio" name="gen"> Female
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <table border="1" width="100%" cellpadding="10" style="border-collapse: collapse; border: 1px solid black;">
+            <tr>
+                <td>Department</td>
+                <td>Computer Science</td>
+                <td>Information Technology</td>
+            </tr>
+            <tr>
+                <td rowspan="2" valign="top">Semester One</td>
+                <td>Computer Graphics</td>
+                <td>Project Management</td>
+            </tr>
+            <tr>
+                
+                <td>Compilers</td>
+                <td>Multimedia</td>
+            </tr>
+            <tr>
+                <td rowspan="3" valign="top">Semester Two</td>
+                <td>Operational research</td>
+                <td>Discrete Maths</td>
+            </tr>
+            <tr>
+                
+                <td>Abstract algebra</td>
+                <td>E-commerce</td>
+            </tr>
+            <tr>
+                <td>AI</td>
+                <td>AI</td>
+            </tr>
+        </table>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <table border="1" cellpadding="10" style="border-collapse: collapse;">
+            <tr>
+                    <td><input type="radio" name="ageRange"> 0 - 19</td>
+                    <td><input type="radio" name="ageRange"> 20 - 35</td>
+                    <td><input type="radio" name="ageRange"> 36 - 50</td>
+                    <td><input type="radio" name="ageRange"> Over50</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <p>
+            <label>Career Field: </label> <br><br>
+            <select name="courses" multiple="100%">
+                <option value="1" selected="selected">AI</option>
+                <option value="2">Website Development</option>
+                <option value="3">Networking</option>
+                <option value="4">Database</option>
+                <option value="5">Mobile Development</option>
+                <option value="6">UI/UX</option>
+                <option value="7">Cybersecurity</option>
+            </select>
+        </p>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <table border="1" width="80%" cellpadding="10" style="border-collapse:collapse;">
+            <tr class="trow">
+                <td>Student Name</td>
+                <td>Course</td>
+                <td>Credit Hours</td>
+                <td>Grade</td>
+            </tr>
+            <tr class="trow">
+                <td rowspan="3" valign="top">Trubel Ransford</td>
+                <td>Networking</td>
+                <td>3</td>
+                <td>A</td>
+            </tr>
+            <tr class="trow">
+                
+                <td>Info Lit</td>
+                <td>1</td>
+                <td>A</td>
+            </tr>
+            <tr class="trow">
+                
+                <td>Comm skills</td>
+                <td>3</td>
+                <td>C</td>
+            </tr>
+            <tr class="trow">
+                <td>John Mensah</td>
+                <td rowspan="2" valign="top">Hardware</td>
+                <td rowspan="2" valign="top">3</td>
+                <td>B+</td>
+            </tr>
+            <tr class="trow">
+                <td>Mercy Saviour</td>
+                
+                <td>A</td>
+            </tr>
+            <tr class="trow">
+                <td>Chan Lee Han</td>
+                <td>AI</td>
+                <td>3</td>
+                <td>A</td>
+            </tr>
+            <tr class="trow" >
+                <td colspan="4" height="20"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td> -->
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+        <table border="1" style="border-collapse: collapse;">
+            <tr class="subret">
+                <td>SUBMIT</td>
+                <td class="tdd"></td>
+                <td class="tdd"></td>
+                <td>RESET</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <dt>ICT</dt>
+        <dd>Information Communication Technology</dd>
+        <p>&nbsp;</p>
+        <abbr title="Information Communication Technology">ICT</abbr>
+        <p>&nbsp;</p>
+        <pre style="font-family: 'Times New Roman', Times, serif;">      Valco Hall it is our pledge       To serve you with all our might;
+                We will surely fight your course;
+                   Till sweet victory is won.     
+        </pre>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <pre>
+            <code>
+                #include&ltiostream&gt  
+                using namespace std;
+    
+                int main(){
+                    string firstName, lastName, fullName;
+    
+                    cout << "Enter your first name: ";
+                    cin >> firstName;
+                    cout << endl;
+    
+                    cout << "Enter your last name: ";
+                    cin >> lastName;
+                    cout << endl;
+    
+                    fullName = firstName.append(" " + lastName);
+                    cout << "Hello " << fullName << endl;
+    
+                    return 0;
+                }
+    
+            </code>
+        </pre>
+    </body>
+</html>

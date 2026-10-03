@@ -1,0 +1,55 @@
+BODY{
+    font-family: Verdana;
+    color: #000000;
+    background: #ff7200;
+}
+H1{
+    font-family: Arial;
+    font-style: italic;
+    color: green;
+    background: yellow;
+    transition: 0.4s ease-in-out;
+}
+H1:hover{
+    background-color: #ff7200;
+    color: #fff;
+}
+H2{
+    font-family: Courier;
+    font-style: bold;
+    color: yellow;
+    background: green;
+}
+H3{
+    font-family: Verdana;
+    font-size: 16pt;
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+H3:hover{
+    color: red;
+}
+H3 a{
+    text-decoration: none;
+}
+
+H4{
+    font-family: Comic Sans MS;
+    font-size: 20pt;
+    color: white;
+    background: black;
+}
+H5{
+    font-family: Arial;
+    color: green;
+    font-style: bold;
+}
+
+.set1{
+    text-indent: 10pt;
+}
+#nifty{
+    text-decoration: line-through;
+    color: #ff8c00;
+}

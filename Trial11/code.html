@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #845162;
+        }
+
+        container{
+            width: 80%;
+            display: flex;
+            height: 100%;
+            
+        }
+
+        .tabmenu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #1B1931;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+
+        }
+
+        li a{
+            text-decoration: none;
+            display: block;
+            color: #fff;
+            padding: 50px 80px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        li a:hover{
+            background-color: #ff7200;
+            color: midnightblue;
+        }
+
+        .tabContent{
+            margin-left: 25%;
+            
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            height: 100%;
+            
+        }
+
+        
+        #cont1{
+            background-color: #662249;
+            color: #fff;
+            font-size: 25px;
+        }
+        #cont2{
+            background-color: #E9BCB9;
+            color: #fff;
+            font-size: 25px;
+        }
+        #cont3{
+            background-color: #ED9E59;
+            color: #fff;
+            font-size: 25px;
+        }
+        #cont4{
+            background-color: #44174E;
+            color: #fff;
+            font-size: 25px;
+        }
+        #cont5{
+            background-color: #242E49;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .tabContent div{
+            display: none;
+        }
+
+        .tabContent div:target{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tabmenu">
+            <ul>
+                <li><a href="#cont1">HOME</a></li>
+                <li><a href="#cont2">NEWS</a></li>
+                <li><a href="#cont3">ABOUT</a></li>
+                <li><a href="#cont4">SERVICE</a></li>
+                <li><a href="#cont5">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="tabContent">
+            <div id="cont1">
+                <h2>This is the first content</h2>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed ullam quibusdam assumenda et sint, temporibus dolorem, dicta at blanditiis iure esse dignissimos? Consectetur delectus placeat quam blanditiis assumenda sit!</p>
+                </section>
+
+                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere sunt accusamus cumque magni, tempora, tempore reiciendis ipsam ipsa vero dolorem hic voluptate minus iure placeat quia unde dolore officia!</blockquote>
+
+                <article>
+                    <h2>Facts about Lorem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae quibusdam labore ab officiis quaerat voluptas, eius voluptate ratione aliquam vitae est consequatur dicta iste. Excepturi vel nihil odio iste!</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem, omnis at odio laboriosam officia placeat aliquam saepe distinctio autem quaerat architecto nihil maiores, rem sit earum sint beatae corporis.</blockquote>
+                </article>
+            </div>
+            <div id="cont2">
+                <h2>This is the second content</h2>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed ullam quibusdam assumenda et sint, temporibus dolorem, dicta at blanditiis iure esse dignissimos? Consectetur delectus placeat quam blanditiis assumenda sit!</p>
+                </section>
+
+                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere sunt accusamus cumque magni, tempora, tempore reiciendis ipsam ipsa vero dolorem hic voluptate minus iure placeat quia unde dolore officia!</blockquote>
+
+                <article>
+                    <h2>Facts about Lorem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae quibusdam labore ab officiis quaerat voluptas, eius voluptate ratione aliquam vitae est consequatur dicta iste. Excepturi vel nihil odio iste!</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem, omnis at odio laboriosam officia placeat aliquam saepe distinctio autem quaerat architecto nihil maiores, rem sit earum sint beatae corporis.</blockquote>
+                </article>
+            </div>
+            <div id="cont3">
+                <h2>This is the third content</h2>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed ullam quibusdam assumenda et sint, temporibus dolorem, dicta at blanditiis iure esse dignissimos? Consectetur delectus placeat quam blanditiis assumenda sit!</p>
+                </section>
+
+                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere sunt accusamus cumque magni, tempora, tempore reiciendis ipsam ipsa vero dolorem hic voluptate minus iure placeat quia unde dolore officia!</blockquote>
+
+                <article>
+                    <h2>Facts about Lorem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae quibusdam labore ab officiis quaerat voluptas, eius voluptate ratione aliquam vitae est consequatur dicta iste. Excepturi vel nihil odio iste!</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem, omnis at odio laboriosam officia placeat aliquam saepe distinctio autem quaerat architecto nihil maiores, rem sit earum sint beatae corporis.</blockquote>
+                </article>
+            </div>
+            <div id="cont4">
+                <h2>This is the fourth content</h2>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed ullam quibusdam assumenda et sint, temporibus dolorem, dicta at blanditiis iure esse dignissimos? Consectetur delectus placeat quam blanditiis assumenda sit!</p>
+                </section>
+
+                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere sunt accusamus cumque magni, tempora, tempore reiciendis ipsam ipsa vero dolorem hic voluptate minus iure placeat quia unde dolore officia!</blockquote>
+
+                <article>
+                    <h2>Facts about Lorem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae quibusdam labore ab officiis quaerat voluptas, eius voluptate ratione aliquam vitae est consequatur dicta iste. Excepturi vel nihil odio iste!</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem, omnis at odio laboriosam officia placeat aliquam saepe distinctio autem quaerat architecto nihil maiores, rem sit earum sint beatae corporis.</blockquote>
+                </article>
+            </div>
+            <div id="cont5">
+                <h2>This is the fifth content</h2>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed ullam quibusdam assumenda et sint, temporibus dolorem, dicta at blanditiis iure esse dignissimos? Consectetur delectus placeat quam blanditiis assumenda sit!</p>
+                </section>
+
+                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere sunt accusamus cumque magni, tempora, tempore reiciendis ipsam ipsa vero dolorem hic voluptate minus iure placeat quia unde dolore officia!</blockquote>
+
+                <article>
+                    <h2>Facts about Lorem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae quibusdam labore ab officiis quaerat voluptas, eius voluptate ratione aliquam vitae est consequatur dicta iste. Excepturi vel nihil odio iste!</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem, omnis at odio laboriosam officia placeat aliquam saepe distinctio autem quaerat architecto nihil maiores, rem sit earum sint beatae corporis.</blockquote>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
